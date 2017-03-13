@@ -3,7 +3,7 @@
  */
 public class Main {
 
-    public Main(){
+    public static void main(){
         GenericGame game = new GenericGame();
         IFactory factory = new SmurfFactory();
         game.run(factory);

@@ -10,17 +10,22 @@ public class GenericGame {
     public void run(IFactory f){
         while (GameOver == false){
             IFigure figure = f.createFigure();
-            figure.jump();
+            figure.walk();
             //.......
             IHouse house = f.createHouse();
+            house.build();
             //.......
             IFemale female = f.createFemale();
+            female.brushHair();
             //.......
             IFood food = f.createFood();
+            food.cook();
             //.......
             IFigure sport = f.createSportFigure();
+            sport.jump();
             //.......
             IGadget gadget = f.createGadget();
+            gadget.createGadget();
             //.......
         }
     }

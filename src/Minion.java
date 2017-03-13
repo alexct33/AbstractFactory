@@ -5,7 +5,7 @@ public class Minion implements IFigure{
     public void walk(){
 
     }
-    public void jump(){
-
+    public String jump(){
+        return "MINION is jumping!";
     }
 }

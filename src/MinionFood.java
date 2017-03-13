@@ -3,7 +3,7 @@
  */
 public class MinionFood implements IFood{
     @Override
-    public void cook() {
-
+    public String cook() {
+        return "MINION is cooking pancakes.";
     }
 }

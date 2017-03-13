@@ -3,7 +3,7 @@
  */
 public class SmurfFood implements IFood {
     @Override
-    public void cook() {
-
+    public String cook() {
+        return "SMURF is cooking sweets.";
     }
 }

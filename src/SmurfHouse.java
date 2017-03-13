@@ -3,7 +3,7 @@
  */
 public class SmurfHouse implements IHouse {
     @Override
-    public void build() {
-
+    public String build() {
+        return "SMURF is building a new blue house!";
     }
 }

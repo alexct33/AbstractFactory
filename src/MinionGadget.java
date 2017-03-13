@@ -4,7 +4,7 @@
 public class MinionGadget implements IGadget {
 
     @Override
-    public void createGadget() {
-
+    public String createGadget() {
+        return "MINION is creating a new yellow tool.";
     }
 }

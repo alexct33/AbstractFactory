@@ -3,7 +3,7 @@
  */
 public class MinionFemale implements IFemale {
     @Override
-    public void brushHair() {
-
+    public String brushHair() {
+        return "MINION Female is brushing her hair.";
     }
 }

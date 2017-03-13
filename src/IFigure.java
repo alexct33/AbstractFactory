@@ -3,5 +3,5 @@
  */
 public interface IFigure {
     void walk();
-    void jump();
+    String jump();
 }

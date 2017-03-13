@@ -8,7 +8,7 @@ public class SmurfSportFigure implements IFigure {
     }
 
     @Override
-    public void jump() {
-
+    public String jump() {
+        return "SMURF is jumping!";
     }
 }

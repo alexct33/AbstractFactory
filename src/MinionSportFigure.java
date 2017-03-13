@@ -8,7 +8,7 @@ public class MinionSportFigure implements IFigure{
     }
 
     @Override
-    public void jump() {
-
+    public String jump() {
+        return "MINION is jumping!";
     }
 }

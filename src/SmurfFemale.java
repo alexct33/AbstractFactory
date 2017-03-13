@@ -4,7 +4,7 @@
 public class SmurfFemale implements IFemale{
 
     @Override
-    public void brushHair() {
-
+    public String brushHair() {
+        return "SMURF female is brushing her hair.";
     }
 }

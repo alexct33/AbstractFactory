@@ -5,8 +5,8 @@ public class Smurf implements IFigure{
     public void walk(){
 
     }
-    public void jump(){
-
+    public String jump(){
+        return "SMURF is jumping!";
     }
 }
 

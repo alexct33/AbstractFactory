@@ -3,7 +3,7 @@
  */
 public class MinionHouse implements IHouse{
     @Override
-    public void build() {
-
+    public String build() {
+        return "MINION is building a new yellow house!";
     }
 }

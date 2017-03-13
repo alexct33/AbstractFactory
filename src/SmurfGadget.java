@@ -3,7 +3,7 @@
  */
 public class SmurfGadget implements IGadget{
     @Override
-    public void createGadget() {
-
+    public String createGadget() {
+        return "SMURF is creating a new blue tool";
     }
 }

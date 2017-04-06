@@ -22,8 +22,15 @@ public class MinionGUI {
             @Override
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
-                if (switchMS == 1) switchMS = 0;
-                else switchMS = 1;
+                if (switchMS == 1) {
+                    switchMS = 0;
+                    output = "Now you control a MINION!";
+                }
+                else {
+                    switchMS = 1;
+                    output = "Now you control a SMURF!";
+
+                }
             }
         });
         femaleButton.addMouseListener(new MouseAdapter() {
